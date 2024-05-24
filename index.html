@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CardPutos</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span>Card</span>Putos</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="post">
+            <h2>Como Configurar o Anbiente</h2>
+            <h5>Passos Básicos para Programar o M5 Cardputer</h5>
+            <ol>
+              <li>
+                <h6>Instalação do Arduino IDE</h6>
+                <p>
+                  Baixe e instale o
+                  <a href="https://www.arduino.cc/en/software" target="_blank">
+                    <img
+                      src="https://img.shields.io/badge/-Arduino IDE-3776AB?style=flat-square&logo=Arduino&logoColor=white"
+                      alt="Arduino IDE"
+                    />
+                  </a>
+                </p>
+              </li>
+              <ul>
+                <h5>Configuração do Arduino IDE</h5>
+                <li>
+                  <p>
+                    Abra o Arduino IDE e vá para
+                    <span>File > Preferences.</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Adicione a URL para o gerenciador de placas do ESP32:
+                    <a
+                      href="https://dl.espressif.com/dl/package_esp32_index.json"
+                      target="_blank"
+                      >https://dl.espressif.com/dl/package_esp32_index.json</a
+                    >no campo "Additional Boards Manager URLs".
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    Vá para
+                    <span style="color: red">Tools > Board > Boards</span>
+                    Manager e procure por "ESP32". Instale a versão mais
+                    recente.
+                  </p>
+                </li>
+              </ul>
+            </ol>
+          </div>
+          <div class="post">
+            <h2>Instalação das Bibliotecas M5Stack</h2>
+            <ul>
+              <li>
+                <p>
+                  Vá para
+                  <span>Sketch > Include Library > Manage Libraries</span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Procure por <span>"M5Stack"</span> e instale a biblioteca.
+                </p>
+              </li>
+            </ul>
+            <h2>Selecionar a Placa e Porta</h2>
+            <ul>
+              <li>
+                <p>
+                  Vá para <span>Tools > Board</span> e selecione
+                  "M5Stack-Core-ESP32".
+                </p>
+              </li>
+              <li>
+                <p>
+                  Conecte o M5 Cardputer ao seu computador via USB e selecione a
+                  porta correta em <span>Tools > Port</span>.
+                </p>
+              </li>
+            </ul>
+            <h2>Exemplo Básico</h2>
+            <ul>
+              <li>
+                <p>
+                  Vá para
+                  <span>
+                    File > Examples > M5Stack > Basics e escolha um exemplo </span
+                  >, como "FactoryTest".
+                </p>
+              </li>
+              <li>
+                <p>
+                  Carregue o código clicando no botão "Upload" (seta para a
+                  direita).
+                </p>
+              </li>
+            </ul>
+            <h1>Recursos para Estudo</h1>
+            <ol>
+              <li>
+                <br />
+                <ul>
+                  <li>
+                    <p>
+                      Acesse a
+                      <a
+                        href="https://docs.m5stack.com/en/products"
+                        target="_blank"
+                        >Documentação oficial do M5Stack</a
+                      >, onde você encontrará guias, tutoriais e referências
+                      detalhadas sobre o hardware e software.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>
+                    <p>
+                      Curso de Arduino e ESP32 no <span>Youtube</span> Muitos
+                      cursos gratuitos estão disponíveis que cobrem desde o
+                      básico até projetos avançados.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>
+                    <p>
+                      Procure por "M5Stack tutorial" ou "ESP32 tutorial" no
+                      YouTube. Há muitos vídeos passo a passo que podem ajudar a
+                      entender como programar e usar o M5 Cardputer.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li>
+                    <p>
+                      Livros sobre programação com ESP32, como
+                      <a
+                        href="https://www.amazon.com.br/Internet-Things-ESP8266-English-Schwartz-ebook/dp/B01ITHITC6"
+                        target="_blank"
+                      >
+                        "Internet das Coisas com ESP32" de Marco Schwartz </a
+                      >. Esses livros frequentemente incluem exemplos práticos e
+                      explicações detalhadas.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sobre</h5>
+              <p class="card-text">
+                O CardPutos e uma forma de tendar espalhar a palavra do
+                Cardputer , eu to bem cateado por que nao to entendendo nada , e
+                nao quero so ficar brincando com codigo dos outros , enta vou
+                divulgar o que eu vou aprendendo aqui :)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 CardPutos</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

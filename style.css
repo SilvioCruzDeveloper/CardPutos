@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #343a40 !important;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: white !important;
+}
+.navbar-brand span {
+  color: rgb(0, 26, 255) !important;
+}
+li span {
+  color: rgb(255, 0, 0) !important;
+}
+a img:hover {
+  transform: scale(1.03);
+  transition: 0.1s;
+  box-shadow: #343a40 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+  padding-top: 20px;
+}
+.post {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
